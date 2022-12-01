@@ -19,7 +19,6 @@ function isDelay($time) {
 function registerArrival($time, $delay) {
     $file = fopen("arrivals.txt", "a");
     
-    
     if ($delay) {
         $text = "\n" . $time . ", meskanie";
     }
@@ -68,4 +67,3 @@ registerArrival($registerDate, $delay);
     </main>
 </body>
 </html>
-

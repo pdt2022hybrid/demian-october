@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Node
+
+# Model Form Field configuration
+form: $/adam/openlab/models/node/fields.yaml
+
+# Model Class name
+modelClass: Adam\Openlab\Models\Node
+
+# Default redirect location
+defaultRedirect: adam/openlab/nodes
+
+# Create page
+create:
+    title: backend::lang.form.create_title
+    redirect: adam/openlab/nodes/update/:id
+    redirectClose: adam/openlab/nodes
+
+# Update page
+update:
+    title: backend::lang.form.update_title
+    redirect: adam/openlab/nodes
+    redirectClose: adam/openlab/nodes
+
+# Preview page
+preview:
+    title: backend::lang.form.preview_title
