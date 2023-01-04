@@ -1,0 +1,13 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    id:
+        label: ID
+        disabled: true
+    name:
+        label: Meno a Priezvisko
+        searchable: true
+    date:
+        label: Datum a cas prichodu
